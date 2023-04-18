@@ -1,0 +1,174 @@
+- category: CAD
+  description: |
+    Example CAD files
+  tiles:
+    - thumbnail: cad/cad1.png
+    - thumbnail: cad/cad2.png
+    - thumbnail: cad/cad3.png
+    - thumbnail: cad/cad4.png
+    - thumbnail: cad/cad5.png
+    - thumbnail: cad/cad6.png
+    - thumbnail: cad/cad7.png
+    - thumbnail: cad/cad8.png
+    - thumbnail: cad/cad9.png
+    - thumbnail: cad/cad10.png
+- category: Simulations
+  descriptino: |
+    Example simulations
+  tiles:
+    - title: robot
+      subtitle: for facilitating ai upraising :)
+      href:
+      code: 
+      thumbnail: cad/robot.jpeg
+    - title: robot
+      subtitle: for facilitating ai upraising :)
+      href:
+      code: 
+      Thumbnail: cad/robot.Jpeg
+    - title: robot
+      subtitle: for facilitating ai upraising :)
+      href:
+      code: 
+      thumbnail: cad/robot.jpeg
+    - title: robot
+      subtitle: for facilitating ai upraising :)
+      href:
+      code: 
+      thumbnail: cad/robot.jpeg
+    - title: robot
+      subtitle: for facilitating ai upraising :)
+      href:
+      code: 
+      thumbnail: cad/robot.jpeg
+    - title: robot
+      subtitle: for facilitating ai upraising :)
+      href:
+      code: 
+      thumbnail: cad/robot.jpeg
+    - title: robot
+      subtitle: for facilitating ai upraising :)
+      href:
+      code: 
+      thumbnail: cad/robot.jpeg
+
+- category: Websites
+  description: |
+    Example websites
+  tiles:
+    - title: robot
+      subtitle: for facilitating ai upraising :)
+      href:
+      code: 
+      thumbnail: cad/robot.jpeg
+    - title: robot
+      subtitle: for facilitating ai upraising :)
+      href:
+      code: 
+      thumbnail: cad/robot.jpeg
+    - title: robot
+      subtitle: for facilitating ai upraising :)
+      href:
+      code: 
+      thumbnail: cad/robot.jpeg
+    - title: robot
+      subtitle: for facilitating ai upraising :)
+      href:
+      code: 
+      thumbnail: cad/robot.jpeg
+    - title: robot
+      subtitle: for facilitating ai upraising :)
+      href:
+      code: 
+      thumbnail: cad/robot.jpeg
+    - title: robot
+      subtitle: for facilitating ai upraising :)
+      href:
+      code: 
+      thumbnail: cad/robot.jpeg
+    - title: robot
+      subtitle: for facilitating ai upraising :)
+      href:
+      code: 
+      thumbnail: cad/robot.jpeg
+
+- category: Dashboards
+  description: |
+    Example Dashboards
+  tiles:
+    - title: robot
+      subtitle: for facilitating ai upraising :)
+      href:
+      code: 
+      thumbnail: cad/robot.jpeg
+    - title: robot
+      subtitle: for facilitating ai upraising :)
+      href:
+      code: 
+      thumbnail: cad/robot.jpeg
+    - title: robot
+      subtitle: for facilitating ai upraising :)
+      href:
+      code: 
+      thumbnail: cad/robot.jpeg
+    - title: robot
+      subtitle: for facilitating ai upraising :)
+      href:
+      code: 
+      thumbnail: cad/robot.jpeg
+    - title: robot
+      subtitle: for facilitating ai upraising :)
+      href:
+      code: 
+      thumbnail: cad/robot.jpeg
+    - title: robot
+      subtitle: for facilitating ai upraising :)
+      href:
+      code: 
+      thumbnail: cad/robot.jpeg
+    - title: robot
+      subtitle: for facilitating ai upraising :)
+      href:
+      code: 
+      thumbnail: cad/robot.jpeg
+
+- category: Other
+  description: |
+    Example files of presentations, vector graphics and UI.
+  tiles:
+    - title: robot
+      subtitle: for facilitating ai upraising :)
+      href:
+      code: 
+      thumbnail: cad/robot.jpeg
+    - title: robot
+      subtitle: for facilitating ai upraising :)
+      href:
+      code: 
+      thumbnail: cad/robot.jpeg
+    - title: robot
+      subtitle: for facilitating ai upraising :)
+      href:
+      code: 
+      thumbnail: cad/robot.jpeg
+    - title: robot
+      subtitle: for facilitating ai upraising :)
+      href:
+      code: 
+      thumbnail: cad/robot.jpeg
+    - title: robot
+      subtitle: for facilitating ai upraising :)
+      href:
+      code: 
+      thumbnail: cad/robot.jpeg
+    - title: robot
+      subtitle: for facilitating ai upraising :)
+      href:
+      code: 
+      thumbnail: cad/robot.jpeg
+    - title: robot
+      subtitle: for facilitating ai upraising :)
+      href:
+      code: 
+      thumbnail: cad/robot.jpeg
+

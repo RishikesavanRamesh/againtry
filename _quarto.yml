@@ -1,19 +1,54 @@
 project:
   type: website
-
+  output-dir: docs
 website:
-  title: "Againstry"
+  title: "Rishikesavan Ramesh"
+  favicon: "images/linkedinpic.jpg"
+  
+  page-footer:
+    center: |
+      <span class="container"><strong>[Contact Rishikesavan Ramesh](mailto:automationwith.rishikesavan@gmail.com){target="_blank"}</strong></span>
+    left: |
+       <span class="container"><strong>Made with [Posit Quarto](https://quarto.org/){target="_blank"}</strong></span>
+    right: |
+      <span class="faux-block">[View the source at {{< fa brands github >}} GitHub](https://github.com/RishikesavanRamesh)</span>
+    
   navbar:
+    
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - href: resume.qmd
+        text: Resume
+      - href: posts.qmd
+        text: Blog
+
+          
+    right:
+      - icon: linkedin
+        href: https://linkedin.com/in/rishikesavan-ramesh
+        aria-label: Quarto LinkedIn
+      - icon: github
+        href: https://github.com/RishikesavanRamesh/
+        aria-label: Quarto Github
+        
+  search: 
+    location: navbar
+    type: overlay
 
 format:
   html:
-    theme: cosmo
+    theme:
+      light: [cosmo, theme_light_custom.scss]
+      dark: [cosmo, theme_dark_custom.scss]
     css: styles.css
-    toc: true
+    citations-hover: true
+    code-link: true
+    code-fold: show
+    code-tools: false
+    code-block-border-left: "#004E4F"
+    
 
-
+    
+editor: visual
 

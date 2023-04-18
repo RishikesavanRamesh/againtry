@@ -1,0 +1,51 @@
+---
+title: "Introduction to ROS2"
+description: "A consice introduction to ROS2 with an empasis on security in industrial applications."
+author:
+  - name: Rishikesavan Ramesh
+    url: https://rishikesavanramesh.github.io/
+    orcid: 0000-0002-0192-9394
+date: 2023-03-31
+categories: [ROS2, Security] # self-defined categories
+citation: 
+  url: https://rishikesavanramesh.github.io/posts/2023-03-31-importance-of-ros2/ 
+image: preview_image.jpg
+
+draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
+website:
+  comments:
+    giscus:
+      repo: quarto-dev/quarto-web
+---
+
+Robotic Operating System 2 (ROS2) is a powerful framework for building robotic systems that has gained popularity in recent years. In addition to its robust capabilities for building and simulating robots, ROS2 also includes several security features that make it ideal for use in industrial applications.
+
+# What is ROS2 ?
+
+ROS2 is a software framework that provides a suite of libraries and tools for building robotic applications. It is designed to be modular and scalable, with a focus on flexibility and ease of use. ROS2 is built on top of the Data Distribution Service (DDS) protocol, which provides a secure communication layer between the nodes in the system.
+
+# Security Features in ROS2
+
+## Secure Communication
+
+ROS2 uses DDS protocol to provide a secure communication channel between nodes in the system. DDS includes built-in support for secure communication using Transport Layer Security (TLS) and Datagram Transport Layer Security (DTLS) protocols, which help to protect against eavesdropping, tampering, and replay attacks.
+
+## Access Control
+
+ROS2 includes a new access control system that allows system administrators to control access to different parts of the system. This includes the ability to define roles and permissions to different users and groups, and to restrict access to sensitive data and resources.
+
+## Encryption
+
+ROS2 supports end-to-end encryption for communication between nodes. This means that data is encrypted at the source and decrypted only at the destination, providing an additional layer of security against unauthorized access.
+
+## Authentication
+
+ROS2 includes built-in support for authentication, which helps to prevent unauthorized access to the system. Authentication can be based on variety of factors, including user credentials, digital certificates, and biometric data.
+
+## Improved Logging
+
+ROS2 includes a new logging system that provides better support for logging security-related events. This makes it easier for administrators to monitor the system for potential security threats and take appropriate action if necessary.
+
+# Conclusion
+
+ROS2 is a powerful framework for building robotic systems, and its new security features make it an ideal choice for industrial applications. With its focus on secure communication access control, encryption, authentication, and logging, ROS2 provides a comprehensive security solution for a wide range of industrial applications.

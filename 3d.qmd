@@ -1,0 +1,45 @@
+---
+title: My 3D Viewer Document
+widgets:
+  threejs:
+    src: https://cdn.jsdelivr.net/npm/three@0.132.2/build/three.min.js
+---
+
+# Introduction
+
+Welcome to my 3D viewer document!
+
+## 3D Model
+
+<script src="https://embed.github.com/view/3d/skalnik/secret-bear-clip/master/stl/clip.stl"></script>
+
+Here is a 3D model of my file:
+
+```{engine='threejs'}
+const scene = new THREE.Scene();
+const camera = new THREE.PerspectiveCamera(75, 1, 0.1, 1000);
+
+const renderer = new THREE.WebGLRenderer();
+renderer.setSize(300, 300);
+el.appendChild(renderer.domElement);
+
+const loader = new THREE.GLTFLoader();
+loader.load('/home/user/Downloads/2CylinderEngine.glb', function (gltf) {
+  const model = gltf.scene;
+  scene.add(model);
+});
+
+camera.position.z = 5;
+
+function animate() {
+  requestAnimationFrame(animate);
+
+  // animate the model
+  model.rotation.x += 0.01;
+  model.rotation.y += 0.01;
+
+  renderer.render(scene, camera);
+}
+animate();
+
+```
