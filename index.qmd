@@ -24,4 +24,4 @@ At the same time, my interest in robotics has led me to explore ROS2, which allo
 
 Furthermore, my experience in mechatronics has provided me with a strong foundation in PLCs, hydraulics, and pneumatics, which I am excited to apply to create innovative and secure systems. 
 
-Overall, I am excited about combining my skills in mechatronics, cybersecurity, and ROS2 to create innovative and secure robotics systems that can make a positive impact on society.
+Overall, I am excited about combining my skills in mechatronics, cybersecurity, and ROS2 to create innovative and secure robotics systems that can make a positive impact on society.@
