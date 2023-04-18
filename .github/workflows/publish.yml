@@ -26,6 +26,10 @@ jobs:
         uses: r-lib/actions/setup-renv@v2
         with:
           cache-version: 1
+          
+      - name: Install packages
+        run: |
+          Rscript -e 'install.packages(c("jsonlite", "rmarkdown"))'
 
       - name: Render and Publish
         uses: quarto-dev/quarto-actions/publish@v2
