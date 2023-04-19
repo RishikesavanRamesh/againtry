@@ -22,7 +22,12 @@ website:
         text: Resume
       - href: posts.qmd
         text: Blog
-
+      - text: Slides
+        menu:
+          - href: materials/leadership.qmd
+            text: Leadership
+          - href: materials/timemanagement.qmd
+            text: Time Management
           
     right:
       - icon: linkedin
