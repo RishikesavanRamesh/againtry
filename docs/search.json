@@ -137,7 +137,7 @@
     "href": "index.html",
     "title": "Rishikesavan Ramesh",
     "section": "",
-    "text": "I am a Mechatronics student with a passion for both robotics and cybersecurity. Currently, I am focusing on expanding my cybersecurity skills while also learning ROS2 to develop secure and efficient robotics systems.\nAs I delve deeper into cybersecurity, I am gaining knowledge in areas such as network security, cryptography, and risk management. I am also learning how to design secure and reliable systems that can protect against threats and vulnerabilities.\nAt the same time, my interest in robotics has led me to explore ROS2, which allows me to create complex robotics systems that can operate in diverse environments. I am fascinated by ROS2’s capabilities and the potential to develop secure and efficient systems.\nFurthermore, my experience in mechatronics has provided me with a strong foundation in PLCs, hydraulics, and pneumatics, which I am excited to apply to create innovative and secure systems.\nOverall, I am excited about combining my skills in mechatronics, cybersecurity, and ROS2 to create innovative and secure robotics systems that can make a positive impact on society."
+    "text": "I am a Mechatronics student with a passion for both robotics and cybersecurity. Currently, I am focusing on expanding my cybersecurity skills while also learning ROS2 to develop secure and efficient robotics systems.\nAs I delve deeper into cybersecurity, I am gaining knowledge in areas such as network security, cryptography, and risk management. I am also learning how to design secure and reliable systems that can protect against threats and vulnerabilities.\nAt the same time, my interest in robotics has led me to explore ROS2, which allows me to create complex robotics systems that can operate in diverse environments. I am fascinated by ROS2’s capabilities and the potential to develop secure and efficient systems.\nFurthermore, my experience in mechatronics has provided me with a strong foundation in PLCs, hydraulics, and pneumatics, which I am excited to apply to create innovative and secure systems.\nOverall, I am excited about combining my skills in mechatronics, cybersecurity, and ROS2 to create innovative and secure robotics systems that can make a positive impact on society.@"
   },
   {
     "objectID": "posts.html",
@@ -250,5 +250,306 @@
     "title": "My 3D Viewer Document",
     "section": "",
     "text": "Here is a 3D model of my file:\nconst scene = new THREE.Scene();\nconst camera = new THREE.PerspectiveCamera(75, 1, 0.1, 1000);\n\nconst renderer = new THREE.WebGLRenderer();\nrenderer.setSize(300, 300);\nel.appendChild(renderer.domElement);\n\nconst loader = new THREE.GLTFLoader();\nloader.load('/home/user/Downloads/2CylinderEngine.glb', function (gltf) {\n  const model = gltf.scene;\n  scene.add(model);\n});\n\ncamera.position.z = 5;\n\nfunction animate() {\n  requestAnimationFrame(animate);\n\n  // animate the model\n  model.rotation.x += 0.01;\n  model.rotation.y += 0.01;\n\n  renderer.render(scene, camera);\n}\nanimate();"
+  },
+  {
+    "objectID": "materials/timemanagement.html#definition-of-time-management",
+    "href": "materials/timemanagement.html#definition-of-time-management",
+    "title": "Rishikesavan Ramesh",
+    "section": "Definition of time management",
+    "text": "Definition of time management"
+  },
+  {
+    "objectID": "materials/timemanagement.html#importance-of-time-management",
+    "href": "materials/timemanagement.html#importance-of-time-management",
+    "title": "Rishikesavan Ramesh",
+    "section": "Importance of time management",
+    "text": "Importance of time management"
+  },
+  {
+    "objectID": "materials/timemanagement.html#purpose-of-the-presentation",
+    "href": "materials/timemanagement.html#purpose-of-the-presentation",
+    "title": "Rishikesavan Ramesh",
+    "section": "Purpose of the presentation",
+    "text": "Purpose of the presentation\nTo be completed in 15 minutes…"
+  },
+  {
+    "objectID": "materials/timemanagement.html#definition-of-inventory",
+    "href": "materials/timemanagement.html#definition-of-inventory",
+    "title": "Rishikesavan Ramesh",
+    "section": "Definition of inventory",
+    "text": "Definition of inventory\n\nInventory or stock refers to the goods and materials that a business holds for the ultimate goal of resale, production or utilisation. -Wikipedia\n\n\n\n\n\n\n\n\nWhat ?  I think this is inventory \n\n\nYes. You are right."
+  },
+  {
+    "objectID": "materials/timemanagement.html#importance-of-inventory-management",
+    "href": "materials/timemanagement.html#importance-of-inventory-management",
+    "title": "Rishikesavan Ramesh",
+    "section": "Importance of inventory management",
+    "text": "Importance of inventory management\n\nCost Control\nCustomer Satisfaction\nEfficient Operations\nAccurate financial reporting\nPlanning and forecasting"
+  },
+  {
+    "objectID": "materials/timemanagement.html#objectives-of-inventory-management",
+    "href": "materials/timemanagement.html#objectives-of-inventory-management",
+    "title": "Rishikesavan Ramesh",
+    "section": "Objectives of inventory management",
+    "text": "Objectives of inventory management\n\nEnsuring Adequate supply\nReducing costs\nImproving efficiency\nMaximizing profitability\nProviding data for decision-making"
+  },
+  {
+    "objectID": "materials/timemanagement.html#the-primary-functions-of-inventory",
+    "href": "materials/timemanagement.html#the-primary-functions-of-inventory",
+    "title": "Rishikesavan Ramesh",
+    "section": "The primary functions of inventory",
+    "text": "The primary functions of inventory\n\nSupporting production\nMeeting customer demand\nReducing lead timers\nProviding a safety net\nFacilitating economies of scale"
+  },
+  {
+    "objectID": "materials/timemanagement.html#importance-of-balancing-inventory-functions",
+    "href": "materials/timemanagement.html#importance-of-balancing-inventory-functions",
+    "title": "Rishikesavan Ramesh",
+    "section": "Importance of balancing inventory functions",
+    "text": "Importance of balancing inventory functions\n\nInventory balancing is the process of moving excess inventory from one retail location to a retail location where that inventory is in demand."
+  },
+  {
+    "objectID": "materials/timemanagement.html#types-of-inventory-costs",
+    "href": "materials/timemanagement.html#types-of-inventory-costs",
+    "title": "Rishikesavan Ramesh",
+    "section": "Types of inventory costs",
+    "text": "Types of inventory costs\n\nHolding costs\nOrdering costs\nShortage costs\nObsolescence costs\nQuality costs"
+  },
+  {
+    "objectID": "materials/timemanagement.html#factors-that-affect-inventory-costs",
+    "href": "materials/timemanagement.html#factors-that-affect-inventory-costs",
+    "title": "Rishikesavan Ramesh",
+    "section": "Factors that affect inventory costs",
+    "text": "Factors that affect inventory costs\n\nDemand variability\nLead time variability\nOrder Quality\nSeasonality\nSupply chain distruptions\nProduct perishablility"
+  },
+  {
+    "objectID": "materials/timemanagement.html#types-of-inventory",
+    "href": "materials/timemanagement.html#types-of-inventory",
+    "title": "Rishikesavan Ramesh",
+    "section": "Types of inventory",
+    "text": "Types of inventory\n\nRaw Materials\nWork-in-Progress (WIP)\nFinished Goods\nMaintenance, Repair, and Operating (MRO) Supplies\nConsignment Inventory\nSafety Stocks\nObsolete Inventory\nPerishable Inventory\nSeasonal Inventory"
+  },
+  {
+    "objectID": "materials/timemanagement.html#what-is-a-deterministic-inventory-model",
+    "href": "materials/timemanagement.html#what-is-a-deterministic-inventory-model",
+    "title": "Rishikesavan Ramesh",
+    "section": "What is a deterministic inventory model?",
+    "text": "What is a deterministic inventory model?\n\nA deterministic inventory model is a type of inventory management system that assumes that demand for a product is known and constant.\n\nExamples:\n\n\n\nEconomic Order Quantity (EOQ) \n\n\n\nReorder Point (ROP)"
+  },
+  {
+    "objectID": "materials/timemanagement.html#what-is-a-probabilistic-inventory-model",
+    "href": "materials/timemanagement.html#what-is-a-probabilistic-inventory-model",
+    "title": "Rishikesavan Ramesh",
+    "section": "What is a probabilistic inventory model?",
+    "text": "What is a probabilistic inventory model?\n\nProbabilistic inventory models are mathematical models used in inventory management that take into account uncertain demand and other random variables that can affect inventory levels.\n\nExamples:\n\nPeriodic Review Model\nContinuous Review Model"
+  },
+  {
+    "objectID": "materials/timemanagement.html#pros-and-cons",
+    "href": "materials/timemanagement.html#pros-and-cons",
+    "title": "Rishikesavan Ramesh",
+    "section": "Pros and Cons",
+    "text": "Pros and Cons\nDeterministic Inventory Models\n\n\n\n\n\n\n\nAdvantages\nDisadvantages\n\n\n\n\nSimple and easy to understand.\nAssumes a constant demand, which may not reflect actual demand variability.\n\n\nSuitable for situations where demand and lead times are known and constant.\nDoesn’t account for uncertainty and risk.\n\n\nProvides a precise calculation of inventory levels.\nMay lead to stockouts or overstocking if demand or lead times vary."
+  },
+  {
+    "objectID": "materials/timemanagement.html#pros-and-cons-1",
+    "href": "materials/timemanagement.html#pros-and-cons-1",
+    "title": "Rishikesavan Ramesh",
+    "section": "Pros and Cons",
+    "text": "Pros and Cons\nProbabilistic Inventory Models\n\n\n\n\n\n\n\nAdvantages\nDisadvantages\n\n\n\n\nCan account for demand and lead time variability.\nMore complex than deterministic models.\n\n\nProvides more realistic estimates of inventory levels.\nRequires accurate data and statistical analysis.\n\n\nCan incorporate uncertainty and risk into decision-making.\nMay involve assumptions that may not hold true in practice."
+  },
+  {
+    "objectID": "materials/timemanagement.html#what-is-a-quantity-discount",
+    "href": "materials/timemanagement.html#what-is-a-quantity-discount",
+    "title": "Rishikesavan Ramesh",
+    "section": "What is a quantity discount?",
+    "text": "What is a quantity discount?\n\nQuantity discount is a pricing strategy used by businesses to encourage customers to purchase more of a product by offering discounts for larger quantities."
+  },
+  {
+    "objectID": "materials/timemanagement.html#how-quantity-discounts-affect-inventory-costs",
+    "href": "materials/timemanagement.html#how-quantity-discounts-affect-inventory-costs",
+    "title": "Rishikesavan Ramesh",
+    "section": "How quantity discounts affect inventory costs",
+    "text": "How quantity discounts affect inventory costs\n\nOrdering a larger quantity of a product to get a quantity discount can be a smart move for a business.\nHowever, storing excess inventory can lead to additional costs such as rent, utilities, and insurance for a warehouse or storage facility.\nHolding excess inventory can tie up capital that could be used for other purposes, increasing the opportunity cost of inventory.\nExcess inventory can become obsolete or spoil over time, leading to additional costs associated with disposal or write-offs.\nThese costs can offset the savings gained from the quantity discount, so it’s important to carefully consider the trade-offs before ordering in bulk."
+  },
+  {
+    "objectID": "materials/timemanagement.html#what-is-a-perpetual-inventory-control-system",
+    "href": "materials/timemanagement.html#what-is-a-perpetual-inventory-control-system",
+    "title": "Rishikesavan Ramesh",
+    "section": "What is a perpetual inventory control system?",
+    "text": "What is a perpetual inventory control system?\n\nA perpetual inventory control system is a method of inventory management that maintains a continuous record of inventory levels and transactions in real-time.\n\n\n\n\nIt uses technology such as barcode scanners and inventory management software to track the movement of goods.\nInventory levels are updated automatically with each transaction, allowing businesses to have a real-time view of their inventory levels.\nBenefits include increased accuracy, reduced inventory holding costs, improved efficiency in managing inventory, and better visibility into stock levels.\nImplementing and maintaining the system can be costly and requires ongoing training and support for employees."
+  },
+  {
+    "objectID": "materials/timemanagement.html#what-is-a-periodic-inventory-control-system",
+    "href": "materials/timemanagement.html#what-is-a-periodic-inventory-control-system",
+    "title": "Rishikesavan Ramesh",
+    "section": "What is a periodic inventory control system?",
+    "text": "What is a periodic inventory control system?\n\nA periodic inventory control system involves physical inventory counts at regular intervals, such as monthly or annually.\n\n\nThe system relies on manual counts and does not provide real-time updates of inventory levels.\nInventory levels are updated periodically to reflect the purchases, sales, and other inventory movements that occurred during the period.\nThis system can be less accurate than a perpetual inventory control system, as it is more susceptible to errors and discrepancies.\nThe periodic inventory control system is often used by small businesses or those with a low volume of inventory, as it requires less investment in technology and resources."
+  },
+  {
+    "objectID": "materials/timemanagement.html#importance-of-effective-inventory-management",
+    "href": "materials/timemanagement.html#importance-of-effective-inventory-management",
+    "title": "Rishikesavan Ramesh",
+    "section": "Importance of effective inventory management",
+    "text": "Importance of effective inventory management"
+  },
+  {
+    "objectID": "materials/timemanagement.html#future-directions-for-inventory-management",
+    "href": "materials/timemanagement.html#future-directions-for-inventory-management",
+    "title": "Rishikesavan Ramesh",
+    "section": "Future directions for inventory management",
+    "text": "Future directions for inventory management"
+  },
+  {
+    "objectID": "materials/timemanagement.html#hello",
+    "href": "materials/timemanagement.html#hello",
+    "title": "Rishikesavan Ramesh",
+    "section": "hello",
+    "text": "hello\nhello"
+  },
+  {
+    "objectID": "materials/timemanagement.html#video-slide",
+    "href": "materials/timemanagement.html#video-slide",
+    "title": "Rishikesavan Ramesh",
+    "section": "Video Slide",
+    "text": "Video Slide"
+  },
+  {
+    "objectID": "materials/timemanagement.html#lame-man",
+    "href": "materials/timemanagement.html#lame-man",
+    "title": "Rishikesavan Ramesh",
+    "section": "Lame man…",
+    "text": "Lame man…\nIt was you who has to explain this. But Really?"
+  },
+  {
+    "objectID": "materials/timemanagement.html#why-is-time-management-important",
+    "href": "materials/timemanagement.html#why-is-time-management-important",
+    "title": "Rishikesavan Ramesh",
+    "section": "Why is Time Management Important?",
+    "text": "Why is Time Management Important?\n\n“Time is a created thing. To say ‘I don’t have time,’ is like saying, ‘I don’t want to.’” - Lao Tzu"
+  },
+  {
+    "objectID": "materials/timemanagement.html#common-time-wasters",
+    "href": "materials/timemanagement.html#common-time-wasters",
+    "title": "Rishikesavan Ramesh",
+    "section": "Common Time Wasters",
+    "text": "Common Time Wasters\n\n“The trouble with time management is that nobody tells you how to manage time. They tell you to buy a planner, and then they assume you will use it.” - Dr. Mardy Grothe"
+  },
+  {
+    "objectID": "materials/timemanagement.html#planning-and-scheduling",
+    "href": "materials/timemanagement.html#planning-and-scheduling",
+    "title": "Rishikesavan Ramesh",
+    "section": "Planning and Scheduling",
+    "text": "Planning and Scheduling\n“Give me six hours to chop down a tree and I will spend the first four sharpening the axe.” - Abraham Lincoln"
+  },
+  {
+    "objectID": "materials/timemanagement.html#time-management-techniques",
+    "href": "materials/timemanagement.html#time-management-techniques",
+    "title": "Rishikesavan Ramesh",
+    "section": "Time Management Techniques",
+    "text": "Time Management Techniques\n\n“Productivity is never an accident. It is always the result of a commitment to excellence, intelligent planning, and focused effort.” - Paul J. Meyer"
+  },
+  {
+    "objectID": "materials/timemanagement.html#managing-distractions-and-interruptions",
+    "href": "materials/timemanagement.html#managing-distractions-and-interruptions",
+    "title": "Rishikesavan Ramesh",
+    "section": "Managing Distractions and Interruptions",
+    "text": "Managing Distractions and Interruptions\n\n“In order to concentrate, we must be selective, even to the point of setting aside the trivial.” - Richard Foster"
+  },
+  {
+    "objectID": "materials/timemanagement.html#time-management-and-stress-reduction",
+    "href": "materials/timemanagement.html#time-management-and-stress-reduction",
+    "title": "Rishikesavan Ramesh",
+    "section": "Time Management and Stress Reduction",
+    "text": "Time Management and Stress Reduction\n\n“The greatest weapon against stress is our ability to choose one thought over another.” - William James"
+  },
+  {
+    "objectID": "materials/timemanagement.html#time-management-and-work-life-balance",
+    "href": "materials/timemanagement.html#time-management-and-work-life-balance",
+    "title": "Rishikesavan Ramesh",
+    "section": "Time Management and Work-Life Balance",
+    "text": "Time Management and Work-Life Balance\n\n“The bad news is time flies. The good news is you’re the pilot.” - Michael Altshuler"
+  },
+  {
+    "objectID": "materials/timemanagement.html#its-minute-fifteen",
+    "href": "materials/timemanagement.html#its-minute-fifteen",
+    "title": "Rishikesavan Ramesh",
+    "section": "It’s minute fifteen",
+    "text": "It’s minute fifteen\nThank you"
+  },
+  {
+    "objectID": "materials/timemanagement.html#goal-setting-and-prioritization",
+    "href": "materials/timemanagement.html#goal-setting-and-prioritization",
+    "title": "Rishikesavan Ramesh",
+    "section": "Goal Setting and Prioritization",
+    "text": "Goal Setting and Prioritization\n\n“You cannot do everything at once, but you can do something at once.” - Zig Ziglar"
+  },
+  {
+    "objectID": "materials/leadership.html#vision",
+    "href": "materials/leadership.html#vision",
+    "title": "Rishikesavan Ramesh",
+    "section": "Vision",
+    "text": "Vision\nA leader must have a clear and inspiring vision for the future."
+  },
+  {
+    "objectID": "materials/leadership.html#communication",
+    "href": "materials/leadership.html#communication",
+    "title": "Rishikesavan Ramesh",
+    "section": "Communication",
+    "text": "Communication\nEffective communication skills are essential for leadership success."
+  },
+  {
+    "objectID": "materials/leadership.html#integrity",
+    "href": "materials/leadership.html#integrity",
+    "title": "Rishikesavan Ramesh",
+    "section": "Integrity",
+    "text": "Integrity\nA leader must have strong ethical principles and be trustworthy."
+  },
+  {
+    "objectID": "materials/leadership.html#adaptability",
+    "href": "materials/leadership.html#adaptability",
+    "title": "Rishikesavan Ramesh",
+    "section": "Adaptability",
+    "text": "Adaptability\nThe ability to adapt to changing circumstances is key for a leader."
+  },
+  {
+    "objectID": "materials/leadership.html#empathy",
+    "href": "materials/leadership.html#empathy",
+    "title": "Rishikesavan Ramesh",
+    "section": "Empathy",
+    "text": "Empathy\nLeaders who display empathy and emotional intelligence can inspire and motivate their teams."
+  },
+  {
+    "objectID": "materials/leadership.html#decisiveness",
+    "href": "materials/leadership.html#decisiveness",
+    "title": "Rishikesavan Ramesh",
+    "section": "Decisiveness",
+    "text": "Decisiveness\nLeaders must be able to make tough decisions in a timely manner."
+  },
+  {
+    "objectID": "materials/leadership.html#accountability",
+    "href": "materials/leadership.html#accountability",
+    "title": "Rishikesavan Ramesh",
+    "section": "Accountability",
+    "text": "Accountability\nA good leader takes responsibility for their actions and holds themselves accountable."
+  },
+  {
+    "objectID": "materials/leadership.html#innovation",
+    "href": "materials/leadership.html#innovation",
+    "title": "Rishikesavan Ramesh",
+    "section": "Innovation",
+    "text": "Innovation\nLeaders who encourage and support innovation can drive growth and success."
+  },
+  {
+    "objectID": "materials/leadership.html#collaboration",
+    "href": "materials/leadership.html#collaboration",
+    "title": "Rishikesavan Ramesh",
+    "section": "Collaboration",
+    "text": "Collaboration\nEffective collaboration and teamwork are vital for achieving shared goals."
+  },
+  {
+    "objectID": "materials/leadership.html#continuous-learning",
+    "href": "materials/leadership.html#continuous-learning",
+    "title": "Rishikesavan Ramesh",
+    "section": "Continuous Learning",
+    "text": "Continuous Learning\nLeaders must continually learn and develop to stay relevant and effective."
   }
 ]
