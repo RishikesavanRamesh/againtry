@@ -16,261 +16,66 @@ execute:
   echo: true
 ---
 
+# Leadership
 
-# Inventory
+## Vision
 
+A leader must have a clear and inspiring vision for the future.
 
-##    Definition of inventory
+![](images/vision.jpeg)
 
-> Inventory or stock refers to the goods and materials that a business holds for the ultimate goal of resale, production or utilisation. [-Wikipedia](https://en.wikipedia.org/wiki/Inventory)
+## Communication
 
-:::: {.columns}
+Effective communication skills are essential for leadership success.
 
+![](images/communication.jpeg)
 
-::: {.column width="20%"}
-:::
-::: {.column width="40%"}
-![](images/inventory.gif)
-:::
+## Integrity
 
-::: {.column width="30%"}
-:::: {.rows .fragment}
-What ?
-<br>
-I think this is inventory
-![](images/inventory-minecraft.gif)
-::::
+A leader must have strong ethical principles and be trustworthy.
 
-:::: {.rows .fragment}
-Yes. You are right.
-::::
+![](images/intergrity.jpeg)
 
-:::
+## Adaptability
 
-::: {.column width="10%"}
-:::
-::::
+The ability to adapt to changing circumstances is key for a leader.
 
-##  Importance of inventory management
+![](images/adaptability.jpeg)
 
-- Cost Control
-- Customer Satisfaction
-- Efficient Operations
-- Accurate financial reporting
-- Planning and forecasting
+## Empathy
 
-##    Objectives of inventory management
+Leaders who display empathy and emotional intelligence can inspire and motivate their teams.
 
-- Ensuring Adequate supply
-- Reducing costs
-- Improving efficiency
-- Maximizing profitability
-- Providing data for decision-making
+![](images/empathy.jpeg)
 
-#  Functions of Inventory
+## Decisiveness
 
+Leaders must be able to make tough decisions in a timely manner.
 
-##  The primary functions of inventory
+![](images/decision.jpeg)
 
+## Accountability
 
-- Supporting production
-- Meeting customer demand
-- Reducing lead timers
-- Providing a safety net
-- Facilitating economies of scale
+ A good leader takes responsibility for their actions and holds themselves accountable.
 
-##  Importance of balancing inventory functions
-> Inventory balancing is the process of moving excess inventory from one retail location to a retail location where that inventory is in demand.
+![](images/accountability.jpeg)
 
-:::: {.columns}
+## Innovation
 
-::: {.column width="25%"}
-:::
-::: {.column}
-![](images/inventory-balancing.png)
-:::
+Leaders who encourage and support innovation can drive growth and success.
 
-::: {.column width="25%"}
-:::
+![](images/innovation.jpeg)
 
-::::
+## Collaboration
 
-# Costs of Inventory
+Effective collaboration and teamwork are vital for achieving shared goals.
 
-##  Types of inventory costs
-- Holding costs
-- Ordering costs
-- Shortage costs
-- Obsolescence costs
-- Quality costs
+![](images/collaboration.jpeg)
 
-##  Factors that affect inventory costs
-- Demand variability
-- Lead time variability
-- Order Quality
-- Seasonality
-- Supply chain distruptions
-- Product perishablility
+## Continuous Learning
 
+Leaders must continually learn and develop to stay relevant and effective.
 
-# Classification of Inventory
+![](images/cl.jpeg)
 
-##    Types of inventory
-- Raw Materials
-- Work-in-Progress (WIP)
-- Finished Goods
-- Maintenance, Repair, and Operating (MRO) Supplies
-- Consignment Inventory
-- Safety Stocks
-- Obsolete Inventory
-- Perishable Inventory
-- Seasonal Inventory
-
-# Deterministic and Probabilistic Inventory Models
-
-##    What is a deterministic inventory model?
-> A deterministic inventory model is a type of inventory management system that **assumes that demand for a product is known and constant**.
-
-Examples:
-
-:::: {.columns}
-
-::: {.column width="50%"}
-a. Economic Order Quantity (EOQ) 
-![](images/eoq.png){width=700 height=400}
-
-:::
-
-::: {.column width="50%"}
-b. Reorder Point (ROP)
-![](images/reorder.gif){width=700 height=400}
-
-:::
-
-::::
-
-
-##    What is a probabilistic inventory model?
-> Probabilistic inventory models are mathematical models used in inventory management that **take into account uncertain demand and other random variables** that can affect inventory levels. 
-
-Examples:
-
-a. Periodic Review Model
-b. Continuous Review Model
-
-##   Pros and Cons
-
-`Deterministic Inventory Models`
-
-| `Advantages` | `Disadvantages` | 
-| :-- | :-- |
-| Simple and easy to understand. | Assumes a constant demand, which may not reflect actual demand variability. |
-| Suitable for situations where demand and lead times are known and constant. | Doesn't account for uncertainty and risk. |
-| Provides a precise calculation of inventory levels. | May lead to stockouts or overstocking if demand or lead times vary.  |
-
-
-##  Pros and Cons
- 
-`Probabilistic Inventory Models`
-
-| `Advantages` | `Disadvantages` |
-| :-- | :-- | 
-| Can account for demand and lead time variability. |   More complex than deterministic models. | 
-| Provides more realistic estimates of inventory levels.|     Requires accurate data and statistical analysis. | 
-| Can incorporate uncertainty and risk into decision-making. |      May involve assumptions that may not hold true in practice. |
-
-
-# Quantity Discounts
-
-##    What is a quantity discount?
-> Quantity discount is a pricing strategy used by businesses to encourage customers to purchase more of a product by offering discounts for larger quantities.
-
-. . .
-
-:::: {.columns}
-
-::: {.column width="25%"}
-:::
-::: {.column }
-![](images/combo_offer.jpg){width=400 height=500}
-:::
-
-::: {.column width="25%"}
-
-:::
-
-::::
-
-
-##    How quantity discounts affect inventory costs
--    Ordering a larger quantity of a product to get a quantity discount can be a smart move for a business.
--    However, storing excess inventory can lead to additional costs such as rent, utilities, and insurance for a warehouse or storage facility.
--    Holding excess inventory can tie up capital that could be used for other purposes, increasing the opportunity cost of inventory.
--    Excess inventory can become obsolete or spoil over time, leading to additional costs associated with disposal or write-offs.
--    These costs can offset the savings gained from the quantity discount, so it's important to carefully consider the trade-offs before ordering in bulk.
-
-# Perpetual and Periodic Inventory Control Systems
-
-##    What is a perpetual inventory control system?
-> A perpetual inventory control system is a method of inventory management that maintains a continuous record of inventory levels and transactions in real-time.
-
-:::: {.columns}
-::: {.column width="65%"}
-
-- It uses technology such as barcode scanners and inventory management software to track the movement of goods.
-- Inventory levels are updated automatically with each transaction, allowing businesses to have a real-time view of their inventory levels.
-- Benefits include increased accuracy, reduced inventory holding costs, improved efficiency in managing inventory, and better visibility into stock levels.
-- Implementing and maintaining the system can be costly and requires ongoing training and support for employees.
-
-:::
-
-::: {.column width="35%"}
-![](images/inventory-scanner.gif)
-:::
-::::
-
-##    What is a periodic inventory control system?
-> A periodic inventory control system involves physical inventory counts at regular intervals, such as monthly or annually.
-
--    The system relies on manual counts and does not provide real-time updates of inventory levels.
--    Inventory levels are updated periodically to reflect the purchases, sales, and other inventory movements that occurred during the period.
--    This system can be less accurate than a perpetual inventory control system, as it is more susceptible to errors and discrepancies.
--    The periodic inventory control system is often used by small businesses or those with a low volume of inventory, as it requires less investment in technology and resources.
-
-# Conclusion
-
-##    Importance of effective inventory management
-
-:::: {.columns }
-
-::: {.column width="25%"}
-![](images/comp_adva.jpeg){width=500 height=500}
-:::
-
-::: {.column width="45%"}
-![](images/mcd.jpeg){width=700 height=500}
-:::
-
-::: {.column width="30%"}
-![](images/cost_cont.jpeg){width=550 height=500}
-:::
-
-::::
-
-##    Future directions for inventory management
-
-:::: {.columns }
-
-::: {.column width="50%"}
-![](images/bloc.jpeg){width=500 height=500}
-:::
-
-::: {.column width="50%"}
-![](images/inve_auto.jpeg){width=700 height=500}
-:::
-
-::::
-
-# Thanks You
-
-Time for the next presentation
+# Thank you
