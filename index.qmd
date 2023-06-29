@@ -1,1 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="typed_js/typed.min.js"></script>
+</head>
+<body>
+  <span class="typing"></span>
 
+  <script type="text/javascript">
+    var typed = new Typed('.typing',{
+      strings: ["Student.", "Coder.", "Geek,", "Tech_Enthusiast.", "Mechatronics_Engineer."],
+      loop: true,
+      typeSpeed: 65,
+      backSpeed: 65
+    });
+  </script>
+</body>
+</html>
