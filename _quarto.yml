@@ -18,10 +18,15 @@ website:
     left:
       - href: index.qmd
         text: Home
+      - href: about.qmd
+        text: About
       - href: resume.qmd
         text: Resume
       - href: posts.qmd
         text: Blog
+      - text: Gallery
+        href: gallery/index.qmd
+
       - text: Slides
         menu:
           - href: materials/leadership.qmd

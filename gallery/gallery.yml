@@ -3,7 +3,9 @@
     Example CAD files
   tiles:
     - thumbnail: cad/cad1.png
-    - thumbnail: cad/cad2.png
+    - title: funny
+      href: cad1_web/index.html
+      thumbnail: cad/cad2.png
     - thumbnail: cad/cad3.png
     - thumbnail: cad/cad4.png
     - thumbnail: cad/cad5.png

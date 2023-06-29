@@ -1,0 +1,31 @@
+::: {.column-screen}
+![](banner.jpg)
+:::
+
+# hello
+::::::{.column-page-left}
+::::{.panel-tabset}
+
+# Front View
+![](a.jpg){width=3in , height=2in}
+
+# Top View
+![](b.jpg}{width=3in , height=2in}
+
+# Right View
+![](c.jpg){width=100%}
+
+# Isometric View
+![](d.jpg){width=100%}
+
+::::
+
+::::{.column-margin}
+
+![](scan.png)
+Use this to view the CAD model use this omfel for dsdfv sacdaca acsd
+::::
+
+This model is a presentation at the world forum on how a beetre world will be created using the cad and here you can see the generic views of the modle and you can download the model at onshape
+
+::::::
