@@ -77,81 +77,88 @@
     "text": "Conclusion\nIn this blog post, we showed you how to configure syslog to capture the history of all commands typed on your Linux system, even if using multiple terminals and starting with space. This method can be useful for system administrators who need to keep track of user activity on their systems. However, keep in mind that capturing command history in this way may raise privacy concerns, so it’s important to inform your users that their commands are being monitored and ensure that the log file is kept secure and accessible only to authorized personnel."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Rishikesavan Ramesh",
+    "objectID": "3d.html",
+    "href": "3d.html",
+    "title": "My 3D Viewer Document",
     "section": "",
-    "text": "I am a Mechatronics student with a passion for both robotics and cybersecurity. Currently, I am focusing on expanding my cybersecurity skills while also learning ROS2 to develop secure and efficient robotics systems.\nAs I delve deeper into cybersecurity, I am gaining knowledge in areas such as network security, cryptography, and risk management. I am also learning how to design secure and reliable systems that can protect against threats and vulnerabilities.\nAt the same time, my interest in robotics has led me to explore ROS2, which allows me to create complex robotics systems that can operate in diverse environments. I am fascinated by ROS2’s capabilities and the potential to develop secure and efficient systems.\nFurthermore, my experience in mechatronics has provided me with a strong foundation in PLCs, hydraulics, and pneumatics, which I am excited to apply to create innovative and secure systems.\nOverall, I am excited about combining my skills in mechatronics, cybersecurity, and ROS2 to create innovative and secure robotics systems that can make a positive impact on society.@"
+    "text": "Welcome to my 3D viewer document!\n\n\n\nHere is a 3D model of my file:\nconst scene = new THREE.Scene();\nconst camera = new THREE.PerspectiveCamera(75, 1, 0.1, 1000);\n\nconst renderer = new THREE.WebGLRenderer();\nrenderer.setSize(300, 300);\nel.appendChild(renderer.domElement);\n\nconst loader = new THREE.GLTFLoader();\nloader.load('/home/user/Downloads/2CylinderEngine.glb', function (gltf) {\n  const model = gltf.scene;\n  scene.add(model);\n});\n\ncamera.position.z = 5;\n\nfunction animate() {\n  requestAnimationFrame(animate);\n\n  // animate the model\n  model.rotation.x += 0.01;\n  model.rotation.y += 0.01;\n\n  renderer.render(scene, camera);\n}\nanimate();"
   },
   {
-    "objectID": "materials/leadership.html#vision",
-    "href": "materials/leadership.html#vision",
-    "title": "Rishikesavan Ramesh",
-    "section": "Vision",
-    "text": "Vision\nA leader must have a clear and inspiring vision for the future."
+    "objectID": "3d.html#d-model",
+    "href": "3d.html#d-model",
+    "title": "My 3D Viewer Document",
+    "section": "",
+    "text": "Here is a 3D model of my file:\nconst scene = new THREE.Scene();\nconst camera = new THREE.PerspectiveCamera(75, 1, 0.1, 1000);\n\nconst renderer = new THREE.WebGLRenderer();\nrenderer.setSize(300, 300);\nel.appendChild(renderer.domElement);\n\nconst loader = new THREE.GLTFLoader();\nloader.load('/home/user/Downloads/2CylinderEngine.glb', function (gltf) {\n  const model = gltf.scene;\n  scene.add(model);\n});\n\ncamera.position.z = 5;\n\nfunction animate() {\n  requestAnimationFrame(animate);\n\n  // animate the model\n  model.rotation.x += 0.01;\n  model.rotation.y += 0.01;\n\n  renderer.render(scene, camera);\n}\nanimate();"
   },
   {
-    "objectID": "materials/leadership.html#communication",
-    "href": "materials/leadership.html#communication",
+    "objectID": "materials/timemanagement.html#lame-man",
+    "href": "materials/timemanagement.html#lame-man",
     "title": "Rishikesavan Ramesh",
-    "section": "Communication",
-    "text": "Communication\nEffective communication skills are essential for leadership success."
+    "section": "Lame man…",
+    "text": "Lame man…\nIt was you who has to explain this. But Really?"
   },
   {
-    "objectID": "materials/leadership.html#integrity",
-    "href": "materials/leadership.html#integrity",
+    "objectID": "materials/timemanagement.html#purpose-of-the-presentation",
+    "href": "materials/timemanagement.html#purpose-of-the-presentation",
     "title": "Rishikesavan Ramesh",
-    "section": "Integrity",
-    "text": "Integrity\nA leader must have strong ethical principles and be trustworthy."
+    "section": "Purpose of the presentation",
+    "text": "Purpose of the presentation\nTo be completed in 15 minutes…"
   },
   {
-    "objectID": "materials/leadership.html#adaptability",
-    "href": "materials/leadership.html#adaptability",
+    "objectID": "materials/timemanagement.html#why-is-time-management-important",
+    "href": "materials/timemanagement.html#why-is-time-management-important",
     "title": "Rishikesavan Ramesh",
-    "section": "Adaptability",
-    "text": "Adaptability\nThe ability to adapt to changing circumstances is key for a leader."
+    "section": "Why is Time Management Important?",
+    "text": "Why is Time Management Important?\n\n“Time is a created thing. To say ‘I don’t have time,’ is like saying, ‘I don’t want to.’” - Lao Tzu"
   },
   {
-    "objectID": "materials/leadership.html#empathy",
-    "href": "materials/leadership.html#empathy",
+    "objectID": "materials/timemanagement.html#common-time-wasters",
+    "href": "materials/timemanagement.html#common-time-wasters",
     "title": "Rishikesavan Ramesh",
-    "section": "Empathy",
-    "text": "Empathy\nLeaders who display empathy and emotional intelligence can inspire and motivate their teams."
+    "section": "Common Time Wasters",
+    "text": "Common Time Wasters\n\n“The trouble with time management is that nobody tells you how to manage time. They tell you to buy a planner, and then they assume you will use it.” - Dr. Mardy Grothe"
   },
   {
-    "objectID": "materials/leadership.html#decisiveness",
-    "href": "materials/leadership.html#decisiveness",
+    "objectID": "materials/timemanagement.html#goal-setting-and-prioritization",
+    "href": "materials/timemanagement.html#goal-setting-and-prioritization",
     "title": "Rishikesavan Ramesh",
-    "section": "Decisiveness",
-    "text": "Decisiveness\nLeaders must be able to make tough decisions in a timely manner."
+    "section": "Goal Setting and Prioritization",
+    "text": "Goal Setting and Prioritization\n\n“You cannot do everything at once, but you can do something at once.” - Zig Ziglar"
   },
   {
-    "objectID": "materials/leadership.html#accountability",
-    "href": "materials/leadership.html#accountability",
+    "objectID": "materials/timemanagement.html#planning-and-scheduling",
+    "href": "materials/timemanagement.html#planning-and-scheduling",
     "title": "Rishikesavan Ramesh",
-    "section": "Accountability",
-    "text": "Accountability\nA good leader takes responsibility for their actions and holds themselves accountable."
+    "section": "Planning and Scheduling",
+    "text": "Planning and Scheduling\n“Give me six hours to chop down a tree and I will spend the first four sharpening the axe.” - Abraham Lincoln"
   },
   {
-    "objectID": "materials/leadership.html#innovation",
-    "href": "materials/leadership.html#innovation",
+    "objectID": "materials/timemanagement.html#time-management-techniques",
+    "href": "materials/timemanagement.html#time-management-techniques",
     "title": "Rishikesavan Ramesh",
-    "section": "Innovation",
-    "text": "Innovation\nLeaders who encourage and support innovation can drive growth and success."
+    "section": "Time Management Techniques",
+    "text": "Time Management Techniques\n\n“Productivity is never an accident. It is always the result of a commitment to excellence, intelligent planning, and focused effort.” - Paul J. Meyer"
   },
   {
-    "objectID": "materials/leadership.html#collaboration",
-    "href": "materials/leadership.html#collaboration",
+    "objectID": "materials/timemanagement.html#managing-distractions-and-interruptions",
+    "href": "materials/timemanagement.html#managing-distractions-and-interruptions",
     "title": "Rishikesavan Ramesh",
-    "section": "Collaboration",
-    "text": "Collaboration\nEffective collaboration and teamwork are vital for achieving shared goals."
+    "section": "Managing Distractions and Interruptions",
+    "text": "Managing Distractions and Interruptions\n\n“In order to concentrate, we must be selective, even to the point of setting aside the trivial.” - Richard Foster"
   },
   {
-    "objectID": "materials/leadership.html#continuous-learning",
-    "href": "materials/leadership.html#continuous-learning",
+    "objectID": "materials/timemanagement.html#time-management-and-stress-reduction",
+    "href": "materials/timemanagement.html#time-management-and-stress-reduction",
     "title": "Rishikesavan Ramesh",
-    "section": "Continuous Learning",
-    "text": "Continuous Learning\nLeaders must continually learn and develop to stay relevant and effective."
+    "section": "Time Management and Stress Reduction",
+    "text": "Time Management and Stress Reduction\n\n“The greatest weapon against stress is our ability to choose one thought over another.” - William James"
+  },
+  {
+    "objectID": "materials/timemanagement.html#time-management-and-work-life-balance",
+    "href": "materials/timemanagement.html#time-management-and-work-life-balance",
+    "title": "Rishikesavan Ramesh",
+    "section": "Time Management and Work-Life Balance",
+    "text": "Time Management and Work-Life Balance\n\n“The bad news is time flies. The good news is you’re the pilot.” - Michael Altshuler"
   },
   {
     "objectID": "materials/inventory.html#definition-of-inventory",
@@ -280,74 +287,74 @@
     "text": "Future directions for inventory management"
   },
   {
-    "objectID": "materials/timemanagement.html#lame-man",
-    "href": "materials/timemanagement.html#lame-man",
+    "objectID": "materials/leadership.html#vision",
+    "href": "materials/leadership.html#vision",
     "title": "Rishikesavan Ramesh",
-    "section": "Lame man…",
-    "text": "Lame man…\nIt was you who has to explain this. But Really?"
+    "section": "Vision",
+    "text": "Vision\nA leader must have a clear and inspiring vision for the future."
   },
   {
-    "objectID": "materials/timemanagement.html#purpose-of-the-presentation",
-    "href": "materials/timemanagement.html#purpose-of-the-presentation",
+    "objectID": "materials/leadership.html#communication",
+    "href": "materials/leadership.html#communication",
     "title": "Rishikesavan Ramesh",
-    "section": "Purpose of the presentation",
-    "text": "Purpose of the presentation\nTo be completed in 15 minutes…"
+    "section": "Communication",
+    "text": "Communication\nEffective communication skills are essential for leadership success."
   },
   {
-    "objectID": "materials/timemanagement.html#why-is-time-management-important",
-    "href": "materials/timemanagement.html#why-is-time-management-important",
+    "objectID": "materials/leadership.html#integrity",
+    "href": "materials/leadership.html#integrity",
     "title": "Rishikesavan Ramesh",
-    "section": "Why is Time Management Important?",
-    "text": "Why is Time Management Important?\n\n“Time is a created thing. To say ‘I don’t have time,’ is like saying, ‘I don’t want to.’” - Lao Tzu"
+    "section": "Integrity",
+    "text": "Integrity\nA leader must have strong ethical principles and be trustworthy."
   },
   {
-    "objectID": "materials/timemanagement.html#common-time-wasters",
-    "href": "materials/timemanagement.html#common-time-wasters",
+    "objectID": "materials/leadership.html#adaptability",
+    "href": "materials/leadership.html#adaptability",
     "title": "Rishikesavan Ramesh",
-    "section": "Common Time Wasters",
-    "text": "Common Time Wasters\n\n“The trouble with time management is that nobody tells you how to manage time. They tell you to buy a planner, and then they assume you will use it.” - Dr. Mardy Grothe"
+    "section": "Adaptability",
+    "text": "Adaptability\nThe ability to adapt to changing circumstances is key for a leader."
   },
   {
-    "objectID": "materials/timemanagement.html#goal-setting-and-prioritization",
-    "href": "materials/timemanagement.html#goal-setting-and-prioritization",
+    "objectID": "materials/leadership.html#empathy",
+    "href": "materials/leadership.html#empathy",
     "title": "Rishikesavan Ramesh",
-    "section": "Goal Setting and Prioritization",
-    "text": "Goal Setting and Prioritization\n\n“You cannot do everything at once, but you can do something at once.” - Zig Ziglar"
+    "section": "Empathy",
+    "text": "Empathy\nLeaders who display empathy and emotional intelligence can inspire and motivate their teams."
   },
   {
-    "objectID": "materials/timemanagement.html#planning-and-scheduling",
-    "href": "materials/timemanagement.html#planning-and-scheduling",
+    "objectID": "materials/leadership.html#decisiveness",
+    "href": "materials/leadership.html#decisiveness",
     "title": "Rishikesavan Ramesh",
-    "section": "Planning and Scheduling",
-    "text": "Planning and Scheduling\n“Give me six hours to chop down a tree and I will spend the first four sharpening the axe.” - Abraham Lincoln"
+    "section": "Decisiveness",
+    "text": "Decisiveness\nLeaders must be able to make tough decisions in a timely manner."
   },
   {
-    "objectID": "materials/timemanagement.html#time-management-techniques",
-    "href": "materials/timemanagement.html#time-management-techniques",
+    "objectID": "materials/leadership.html#accountability",
+    "href": "materials/leadership.html#accountability",
     "title": "Rishikesavan Ramesh",
-    "section": "Time Management Techniques",
-    "text": "Time Management Techniques\n\n“Productivity is never an accident. It is always the result of a commitment to excellence, intelligent planning, and focused effort.” - Paul J. Meyer"
+    "section": "Accountability",
+    "text": "Accountability\nA good leader takes responsibility for their actions and holds themselves accountable."
   },
   {
-    "objectID": "materials/timemanagement.html#managing-distractions-and-interruptions",
-    "href": "materials/timemanagement.html#managing-distractions-and-interruptions",
+    "objectID": "materials/leadership.html#innovation",
+    "href": "materials/leadership.html#innovation",
     "title": "Rishikesavan Ramesh",
-    "section": "Managing Distractions and Interruptions",
-    "text": "Managing Distractions and Interruptions\n\n“In order to concentrate, we must be selective, even to the point of setting aside the trivial.” - Richard Foster"
+    "section": "Innovation",
+    "text": "Innovation\nLeaders who encourage and support innovation can drive growth and success."
   },
   {
-    "objectID": "materials/timemanagement.html#time-management-and-stress-reduction",
-    "href": "materials/timemanagement.html#time-management-and-stress-reduction",
+    "objectID": "materials/leadership.html#collaboration",
+    "href": "materials/leadership.html#collaboration",
     "title": "Rishikesavan Ramesh",
-    "section": "Time Management and Stress Reduction",
-    "text": "Time Management and Stress Reduction\n\n“The greatest weapon against stress is our ability to choose one thought over another.” - William James"
+    "section": "Collaboration",
+    "text": "Collaboration\nEffective collaboration and teamwork are vital for achieving shared goals."
   },
   {
-    "objectID": "materials/timemanagement.html#time-management-and-work-life-balance",
-    "href": "materials/timemanagement.html#time-management-and-work-life-balance",
+    "objectID": "materials/leadership.html#continuous-learning",
+    "href": "materials/leadership.html#continuous-learning",
     "title": "Rishikesavan Ramesh",
-    "section": "Time Management and Work-Life Balance",
-    "text": "Time Management and Work-Life Balance\n\n“The bad news is time flies. The good news is you’re the pilot.” - Michael Altshuler"
+    "section": "Continuous Learning",
+    "text": "Continuous Learning\nLeaders must continually learn and develop to stay relevant and effective."
   },
   {
     "objectID": "posts.html",
@@ -357,11 +364,11 @@
     "text": "A second .bash_history\n\n\n\n\n\n\n\nLinux\n\n\nSecurity\n\n\n\n\nHow to Collect the History of All Commands Typed in a Linux Terminal?\n\n\n\n\n\n\nApr 4, 2023\n\n\nRishikesavan Ramesh\n\n\n\n\n\n\n  \n\n\n\n\nIntroduction to ROS2\n\n\n\n\n\n\n\nROS2\n\n\nSecurity\n\n\n\n\nA consice introduction to ROS2 with an empasis on security in industrial applications.\n\n\n\n\n\n\nMar 31, 2023\n\n\nRishikesavan Ramesh\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "3d.html",
-    "href": "3d.html",
-    "title": "My 3D Viewer Document",
+    "objectID": "gallery/cad1_web/index.html",
+    "href": "gallery/cad1_web/index.html",
+    "title": "hello",
     "section": "",
-    "text": "Welcome to my 3D viewer document!\n\n\n\nHere is a 3D model of my file:\nconst scene = new THREE.Scene();\nconst camera = new THREE.PerspectiveCamera(75, 1, 0.1, 1000);\n\nconst renderer = new THREE.WebGLRenderer();\nrenderer.setSize(300, 300);\nel.appendChild(renderer.domElement);\n\nconst loader = new THREE.GLTFLoader();\nloader.load('/home/user/Downloads/2CylinderEngine.glb', function (gltf) {\n  const model = gltf.scene;\n  scene.add(model);\n});\n\ncamera.position.z = 5;\n\nfunction animate() {\n  requestAnimationFrame(animate);\n\n  // animate the model\n  model.rotation.x += 0.01;\n  model.rotation.y += 0.01;\n\n  renderer.render(scene, camera);\n}\nanimate();"
+    "text": "hello\n\n\nFront ViewTop ViewRight ViewIsometric View\n\n\n{width=3in , height=2in}\n\n\n[](b.jpg}{width=3in , height=2in}\n\n\n\n\n\n\n\n\n\n\n\n Use this to view the CAD model use this omfel for dsdfv sacdaca acsd\nThis model is a presentation at the world forum on how a beetre world will be created using the cad and here you can see the generic views of the modle and you can download the model at onshape"
   },
   {
     "objectID": "gallery/3d1.html",
@@ -373,8 +380,8 @@
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "Rishikesavan Ramesh",
     "section": "",
-    "text": "About this site"
+    "text": "I am a Mechatronics student with a passion for both robotics and cybersecurity. Currently, I am focusing on expanding my cybersecurity skills while also learning ROS2 to develop secure and efficient robotics systems.\nAs I delve deeper into cybersecurity, I am gaining knowledge in areas such as network security, cryptography, and risk management. I am also learning how to design secure and reliable systems that can protect against threats and vulnerabilities.\nAt the same time, my interest in robotics has led me to explore ROS2, which allows me to create complex robotics systems that can operate in diverse environments. I am fascinated by ROS2’s capabilities and the potential to develop secure and efficient systems.\nFurthermore, my experience in mechatronics has provided me with a strong foundation in PLCs, hydraulics, and pneumatics, which I am excited to apply to create innovative and secure systems.\nOverall, I am excited about combining my skills in mechatronics, cybersecurity, and ROS2 to create innovative and secure robotics systems that can make a positive impact on society.@"
   }
 ]
