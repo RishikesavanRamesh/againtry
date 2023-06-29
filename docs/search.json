@@ -91,6 +91,13 @@
     "text": "Here is a 3D model of my file:\nconst scene = new THREE.Scene();\nconst camera = new THREE.PerspectiveCamera(75, 1, 0.1, 1000);\n\nconst renderer = new THREE.WebGLRenderer();\nrenderer.setSize(300, 300);\nel.appendChild(renderer.domElement);\n\nconst loader = new THREE.GLTFLoader();\nloader.load('/home/user/Downloads/2CylinderEngine.glb', function (gltf) {\n  const model = gltf.scene;\n  scene.add(model);\n});\n\ncamera.position.z = 5;\n\nfunction animate() {\n  requestAnimationFrame(animate);\n\n  // animate the model\n  model.rotation.x += 0.01;\n  model.rotation.y += 0.01;\n\n  renderer.render(scene, camera);\n}\nanimate();"
   },
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Rishikesavan Ramesh",
+    "section": "",
+    "text": "&lt;!DOCTYPE html&gt;"
+  },
+  {
     "objectID": "materials/timemanagement.html#lame-man",
     "href": "materials/timemanagement.html#lame-man",
     "title": "Rishikesavan Ramesh",
@@ -383,12 +390,5 @@
     "title": "Rishikesavan Ramesh",
     "section": "",
     "text": "I am a Mechatronics student with a passion for both robotics and cybersecurity. Currently, I am focusing on expanding my cybersecurity skills while also learning ROS2 to develop secure and efficient robotics systems.\nAs I delve deeper into cybersecurity, I am gaining knowledge in areas such as network security, cryptography, and risk management. I am also learning how to design secure and reliable systems that can protect against threats and vulnerabilities.\nAt the same time, my interest in robotics has led me to explore ROS2, which allows me to create complex robotics systems that can operate in diverse environments. I am fascinated by ROS2’s capabilities and the potential to develop secure and efficient systems.\nFurthermore, my experience in mechatronics has provided me with a strong foundation in PLCs, hydraulics, and pneumatics, which I am excited to apply to create innovative and secure systems.\nOverall, I am excited about combining my skills in mechatronics, cybersecurity, and ROS2 to create innovative and secure robotics systems that can make a positive impact on society.@"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Rishikesavan Ramesh",
-    "section": "",
-    "text": "&lt;!DOCTYPE html&gt;"
   }
 ]

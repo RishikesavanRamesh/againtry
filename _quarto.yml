@@ -3,7 +3,7 @@ project:
   output-dir: docs
 website:
   title: "Rishikesavan Ramesh"
-  favicon: "images/linkedinpic.jpg"
+  favicon: "images/bitmap.jpg"
   
   page-footer:
     center: |

@@ -24,7 +24,7 @@ Gallery
 :::
 
 Discover a collection of my work in a gallery, showcasing my skills in 
-
+-   <span style="color: #88bbd6;">[Misc](#other)</span>
 -   [CAD](#cad)
 -   [Simulations](#simulations)
 -   [Websites](#websites)
@@ -51,7 +51,7 @@ carousel("gallery-carousel", 5000,
 
 #hero-banner {
   padding-top: 35px;
-  background-color: rgb(237,243,249);
+  background-color: #000080 ;
 }
 
 #quarto-content main { 
