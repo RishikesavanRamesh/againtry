@@ -67,7 +67,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -144,34 +144,38 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-page" id="quarto-document-content">
 
 
 
 <script src="typed_js/typed.min.js"></script>
 <style>
   body {
+
+//  transition: background-color 0.5s ease;
   transition: background-image 0.5s ease;
-  background-size: cover;
+//  background-image: url("images/coder.jpg");
+  background-size: auto;
   background-repeat: no-repeat;
 }
   .center-xy {
           margin: 0;
           position: absolute;
-          top: 35%;
+          top: 10%;
+
      }  
 </style>
-<section id="i-am-rishikesavan-ramesh" class="level1 center-xy">
-<h1>I am Rishikesavan Ramesh</h1>
+<section id="i-am-rishikesavan-ramesh." class="level1 center-xy">
+<h1>I am Rishikesavan Ramesh.</h1>
 <p><span class="typing"></span></p>
 <script type="text/javascript">
     var typed = new Typed('.typing',{
-      strings: ["Student.", "Coder.", "Geek,", "Tech_Enthusiast.", "Mechatronics_Engineer."],
+      strings: ["Designer.", "Coder.", "Foss Advocate.", "Linux User.", "Mechatronics Engineer."],
       loop: true,
       typeSpeed: 65,
       backSpeed: 65,
@@ -186,8 +190,13 @@ ul.task-list li input[type="checkbox"] {
       },
       preStringTyped: function(arrayPos) {
         // Change background image based on the array position
-        var images = ["url(images/background.jpg)", "url(image2.jpg)", "url(images/background.jpg)", "url(image4.jpg)", "url(image5.jpg)"];
-        document.body.style.backgroundImage = images[arrayPos];
+         var images = ["url(images/coder.jpg)","url(images/coder.jpg)", "url(images/coder.jpg)", "url(images/coder.jpg)", "url(images/coder.jpg)"];
+       document.body.style.backgroundImage = images[arrayPos];
+
+//        var colors = ["#FF0000", "#00FF00", "#0000FF", "#FFFF00", "#FF00FF"];
+//      document.body.style.backgroundColor = colors[arrayPos];
+
+
       }
     });
   </script>
