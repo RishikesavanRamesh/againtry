@@ -119,6 +119,10 @@ ul.task-list li input[type="checkbox"] {
   </li>  
     </ul>
   </li>
+  <li class="nav-item">
+    <a class="nav-link" href="./contact.html" rel="" target="">
+ <span class="menu-text">Contact</span></a>
+  </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
@@ -149,22 +153,45 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-
-
 <script src="typed_js/typed.min.js"></script>
-
-
+<style>
+  body {
+  transition: background-image 0.5s ease;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+  .center-xy {
+          margin: 0;
+          position: absolute;
+          top: 35%;
+     }  
+</style>
+<section id="i-am-rishikesavan-ramesh" class="level1 center-xy">
+<h1>I am Rishikesavan Ramesh</h1>
 <p><span class="typing"></span></p>
 <script type="text/javascript">
     var typed = new Typed('.typing',{
       strings: ["Student.", "Coder.", "Geek,", "Tech_Enthusiast.", "Mechatronics_Engineer."],
       loop: true,
       typeSpeed: 65,
-      backSpeed: 65
+      backSpeed: 65,
+      smartBackspace: false,
+      shuffle: false,
+      startDelay: 1000,
+      loopCount: Infinity,
+      showCursor: true,
+      cursorChar: '|',
+      onComplete: function(self) {
+        self.cursor.remove();
+      },
+      preStringTyped: function(arrayPos) {
+        // Change background image based on the array position
+        var images = ["url(images/background.jpg)", "url(image2.jpg)", "url(images/background.jpg)", "url(image4.jpg)", "url(image5.jpg)"];
+        document.body.style.backgroundImage = images[arrayPos];
+      }
     });
   </script>
-
-
+</section>
 
 
 

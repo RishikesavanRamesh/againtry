@@ -1,9 +1,19 @@
+<script src="typed_js/typed.min.js"></script>
+<style>
+  body {
+  transition: background-image 0.5s ease;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+  .center-xy {
+          margin: 0;
+          position: absolute;
+          top: 35%;
+     }  
+</style>
 
-<html>
-<head>
-  <script src="typed_js/typed.min.js"></script>
-</head>
-<body>
+:::: {.center-xy}
+# I am Rishikesavan Ramesh
   <span class="typing"></span>
 
   <script type="text/javascript">
@@ -11,8 +21,22 @@
       strings: ["Student.", "Coder.", "Geek,", "Tech_Enthusiast.", "Mechatronics_Engineer."],
       loop: true,
       typeSpeed: 65,
-      backSpeed: 65
+      backSpeed: 65,
+      smartBackspace: false,
+      shuffle: false,
+      startDelay: 1000,
+      loopCount: Infinity,
+      showCursor: true,
+      cursorChar: '|',
+      onComplete: function(self) {
+        self.cursor.remove();
+      },
+      preStringTyped: function(arrayPos) {
+        // Change background image based on the array position
+        var images = ["url(images/background.jpg)", "url(image2.jpg)", "url(images/background.jpg)", "url(image4.jpg)", "url(image5.jpg)"];
+        document.body.style.backgroundImage = images[arrayPos];
+      }
     });
   </script>
-</body>
-</html>
+
+::::

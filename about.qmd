@@ -2,9 +2,9 @@
 title: "Rishikesavan Ramesh"
 image: images/linkedinpic.jpg
 about:
-  template: jolla
+  template: trestles	
   image-width: 15em
-  image-shape: round
+
   links:
     - icon: linkedin
       text: LinkedIn
@@ -16,7 +16,6 @@ about:
       text: Contact me
       href: mailto:automationwith.rishikesavan@gmail.com
 ---
-
 
 
 
