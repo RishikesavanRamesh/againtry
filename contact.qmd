@@ -1,10 +1,20 @@
 
+::: {.column-screen-inset}
+```{r}
+#| echo: FALSE
+library(leaflet)
+leaflet() %>%
+  addTiles() %>%  # Add default OpenStreetMap map tiles
+  addMarkers(lng=174.768, lat=-36.852, popup="The birthplace of R")
+```
+:::
+<br>
 
-::: {.column-page style="text-align: center;"}
+::: {.column-screen-inset style="text-align: center;"}
 
 <style>
   form {
-    max-width: 1000px;
+    max-width: 1800px;
     margin: 0 auto;
     background-color: #f1f1f1;
     padding: 20px;

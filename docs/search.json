@@ -79,9 +79,9 @@
   {
     "objectID": "3d.html",
     "href": "3d.html",
-    "title": "My 3D Viewer Document",
+    "title": "Rishikesavan Ramesh",
     "section": "",
-    "text": "Welcome to my 3D viewer document!\n\n\n\nHere is a 3D model of my file:\nconst scene = new THREE.Scene();\nconst camera = new THREE.PerspectiveCamera(75, 1, 0.1, 1000);\n\nconst renderer = new THREE.WebGLRenderer();\nrenderer.setSize(300, 300);\nel.appendChild(renderer.domElement);\n\nconst loader = new THREE.GLTFLoader();\nloader.load('/home/user/Downloads/2CylinderEngine.glb', function (gltf) {\n  const model = gltf.scene;\n  scene.add(model);\n});\n\ncamera.position.z = 5;\n\nfunction animate() {\n  requestAnimationFrame(animate);\n\n  // animate the model\n  model.rotation.x += 0.01;\n  model.rotation.y += 0.01;\n\n  renderer.render(scene, camera);\n}\nanimate();"
+    "text": "&lt;!DOCTYPE html&gt;\n\n\n\n3D Model Viewer"
   },
   {
     "objectID": "3d.html#d-model",
@@ -397,5 +397,12 @@
     "title": "Rishikesavan Ramesh",
     "section": "",
     "text": "Name: \nEmail: \nMessage:\n\n\nSubmit"
+  },
+  {
+    "objectID": "index2.html",
+    "href": "index2.html",
+    "title": "Rishikesavan Ramesh",
+    "section": "",
+    "text": "# I am Rishikesavan Ramesh."
   }
 ]

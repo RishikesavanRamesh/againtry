@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.361">
+<meta name="generator" content="quarto-1.3.433">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Rishikesavan Ramesh - My 3D Viewer Document</title>
+<title>Rishikesavan Ramesh – d</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -67,7 +67,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body style="background-color:transparent" class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -85,7 +85,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html" rel="" target="">
+    <a class="nav-link" href="./index2.html" rel="" target="">
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
@@ -151,60 +151,20 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">My 3D Viewer Document</h1>
-</div>
 
 
 
-<div class="quarto-title-meta">
 
-    
-  
-    
-  </div>
-  
-
-</header>
-
-<section id="introduction" class="level1">
-<h1>Introduction</h1>
-<p>Welcome to my 3D viewer document!</p>
-<section id="d-model" class="level2">
-<h2 class="anchored" data-anchor-id="d-model">3D Model</h2>
-<script src="https://embed.github.com/view/3d/skalnik/secret-bear-clip/master/stl/clip.stl"></script>
-<p>Here is a 3D model of my file:</p>
-<pre data-engine="threejs"><code>const scene = new THREE.Scene();
-const camera = new THREE.PerspectiveCamera(75, 1, 0.1, 1000);
-
-const renderer = new THREE.WebGLRenderer();
-renderer.setSize(300, 300);
-el.appendChild(renderer.domElement);
-
-const loader = new THREE.GLTFLoader();
-loader.load('/home/user/Downloads/2CylinderEngine.glb', function (gltf) {
-  const model = gltf.scene;
-  scene.add(model);
-});
-
-camera.position.z = 5;
-
-function animate() {
-  requestAnimationFrame(animate);
-
-  // animate the model
-  model.rotation.x += 0.01;
-  model.rotation.y += 0.01;
-
-  renderer.render(scene, camera);
-}
-animate();
-</code></pre>
+<!-- Import the component -->
+<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"> 
+</script>
+<script src="https://unpkg.com/focus-visible@5.0.2/dist/focus-visible.js" defer=""></script>
+<model-viewer orbit-sensitivity="2" interaction-prompt="none" id="reveal" camera-controls="true" auto-rotate="true" poster="https://test-aorist-bucket.s3.amazonaws.com/images/artwork/900x600/187.1.jpg" src="https://test-aorist-bucket.s3.amazonaws.com/models/artwork/187.1.glb" alt="Bold [3D]" ar-status="not-presenting" style="width: 100%; height: 100%; position: absolute; left: 0px; top: 0px; z-index: 0; 
+display: block; background-color: #ffffff;"> </model-viewer>
 
 
-</section>
-</section>
+
+
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
