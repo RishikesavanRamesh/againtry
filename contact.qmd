@@ -5,7 +5,7 @@
 library(leaflet)
 leaflet() %>%
   addTiles() %>%  # Add default OpenStreetMap map tiles
-  addMarkers(lng=174.768, lat=-36.852, popup="The birthplace of R")
+  addMarkers(lng=78.146011, lat=11.664325, popup="Salem, Tamilnadu")
 ```
 :::
 <br>
@@ -71,3 +71,4 @@ leaflet() %>%
 </form>
 
 :::
+x
