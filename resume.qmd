@@ -1,6 +1,0 @@
-
-<iframe 
-  width="1050" 
-  height="1200" 
-  src="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/RishikesavanRamesh/resume-src/main/main.pdf&embedded=true">
-</iframe>
